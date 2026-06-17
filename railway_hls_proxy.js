@@ -78,7 +78,7 @@ app.get('/health', (req, res) => {
 app.get('/api/matches', async (req, res) => {
   try {
     // Call your sports API from Railway's IP
-    const response = await axios.get(`${SPORTS_API_URL}/your-matches-endpoint`, {
+    const response = await axios.get(`${SPORTS_API_URL}/wefeed-h5api-bff/home?host=moviebox.ph`, {
       headers: {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
         'Authorization': process.env.API_AUTH_TOKEN || '',
