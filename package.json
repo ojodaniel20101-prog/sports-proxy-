@@ -1,0 +1,19 @@
+{
+  "name": "railway-hls-proxy",
+  "version": "1.0.0",
+  "description": "HLS Stream Proxy for Railway - Solves IP-locked token problem",
+  "main": "railway_hls_proxy.js",
+  "scripts": {
+    "start": "node railway_hls_proxy.js",
+    "dev": "nodemon railway_hls_proxy.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "node-cache": "^5.1.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
